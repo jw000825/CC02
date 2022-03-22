@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a2379373-daac-48d5-a107-38643ef941c1}</ProjectGuid>
-    <RootNamespace>CC02</RootNamespace>
+    <ProjectGuid>{fcd43b9a-17c4-4eb9-a60a-591f664f31be}</ProjectGuid>
+    <RootNamespace>CC03</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,8 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lecture02_2.cpp" />
-    <ClCompile Include="Lecutre02.cpp" />
+    <ClCompile Include="Lecture03.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KeyCommand.hpp" />
+    <ClInclude Include="MCommand.hpp" />
+    <ClInclude Include="MGameLoop.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
